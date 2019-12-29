@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85923464-18d1-48d4-92b4-4aa717c0051b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="blog: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTb6ZGdkAcvVDVRxuBEWDrSVRJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-10\src\main\resources\com\lei\dao" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-08\src\main\java\com\lei\dao" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-08\src\main\resources\com.lei.dao" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-07\src\main\resources" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-03\src\main\java\com\lei\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lei.utils" />
+      <recent name="" />
+      <recent name="com.lei.dao" />
+      <recent name="com.lei.pojo" />
+      <recent name="dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-12\src\main\resources" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-11\src\main\resources\com\lei\dao" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-11\src\main\resources" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-10\src\main\resources" />
+      <recent name="D:\ideaobject\ideaobject\Mybatis-Study\mybatis-10\src\main\java\com\lei\pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.mytest.test">
+    <configuration name="mytest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-12" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mytest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.quertblogForEachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="quertblogForEachTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.queryBlogChooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="queryBlogChooseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.queryBlogIfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="queryBlogIfTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.queryBlogUpadateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="queryBlogUpadateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.mytest.test" />
+        <item itemvalue="JUnit.test.quertblogForEachTest" />
+        <item itemvalue="JUnit.test.queryBlogIfTest" />
+        <item itemvalue="JUnit.test.queryBlogUpadateTest" />
+        <item itemvalue="JUnit.test.queryBlogChooseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85923464-18d1-48d4-92b4-4aa717c0051b" name="Default Changelist" comment="" />
+      <created>1573208679690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573208679690</updated>
+      <workItem from="1573208683840" duration="6499000" />
+      <workItem from="1573261353652" duration="10386000" />
+      <workItem from="1573349120299" duration="5412000" />
+      <workItem from="1573379448755" duration="310000" />
+      <workItem from="1573379793222" duration="5861000" />
+      <workItem from="1573445190578" duration="756000" />
+      <workItem from="1573526635086" duration="1917000" />
+      <workItem from="1573638711343" duration="3161000" />
+      <workItem from="1573720214462" duration="2183000" />
+      <workItem from="1573785667962" duration="1737000" />
+      <workItem from="1573817024225" duration="2805000" />
+      <workItem from="1573820230587" duration="1445000" />
+      <workItem from="1573821725306" duration="1393000" />
+      <workItem from="1573867343631" duration="4942000" />
+      <workItem from="1573875162129" duration="9552000" />
+      <workItem from="1573952753620" duration="5868000" />
+      <workItem from="1574000179509" duration="559000" />
+      <workItem from="1574087574472" duration="758000" />
+      <workItem from="1574419305603" duration="3227000" />
+      <workItem from="1574560753736" duration="4532000" />
+      <workItem from="1574566101733" duration="21000" />
+      <workItem from="1574691885943" duration="27000" />
+      <workItem from="1574844141243" duration="8041000" />
+      <workItem from="1574909713463" duration="119000" />
+      <workItem from="1574997888880" duration="2159000" />
+      <workItem from="1575367941641" duration="4585000" />
+      <workItem from="1575382208093" duration="525000" />
+      <workItem from="1575382998335" duration="167000" />
+      <workItem from="1575383365560" duration="14000" />
+      <workItem from="1575421806990" duration="14000" />
+      <workItem from="1575433750473" duration="671000" />
+      <workItem from="1575434686259" duration="44000" />
+      <workItem from="1575462998486" duration="27000" />
+      <workItem from="1575535272007" duration="681000" />
+      <workItem from="1575546365838" duration="636000" />
+      <workItem from="1575555061794" duration="27000" />
+      <workItem from="1575620815214" duration="7102000" />
+      <workItem from="1575688125556" duration="605000" />
+      <workItem from="1576234163722" duration="2785000" />
+      <workItem from="1576403588564" duration="59000" />
+      <workItem from="1577101149512" duration="11000" />
+      <workItem from="1577191720117" duration="262000" />
+      <workItem from="1577192402181" duration="283000" />
+      <workItem from="1577193755152" duration="6000" />
+      <workItem from="1577532174981" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="260" y="32" key="#Project_Structure" timestamp="1575622581608">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="260" y="32" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1575622581608" />
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1575623552400">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1575623552400" />
+    <state x="363" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575434621392">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1575434621392" />
+    <state width="1325" height="226" key="GridCell.Tab.0.bottom" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.0.center" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.0.left" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.0.right" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.1.bottom" timestamp="1575632880470">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575632880470" />
+    <state width="1325" height="226" key="GridCell.Tab.1.center" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.1.left" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state width="1325" height="226" key="GridCell.Tab.1.right" timestamp="1575632880469">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1325" height="226" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1575632880469" />
+    <state x="46" y="8" width="1248" height="708" key="SettingsEditor" timestamp="1577192619693">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="46" y="8" width="1248" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1577192619693" />
+    <state x="0" y="21" key="new project wizard" timestamp="1575621036882">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="21" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1575621036882" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

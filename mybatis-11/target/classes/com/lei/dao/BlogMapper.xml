@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lei.dao.BlogMapper">
+<insert id="addBook" parameterType="blog" >
+insert into blog (id, author, create_time, views, title) values (#{id},#{author},#{createTime},#{views},#{title});
+</insert>
+
+    <sql id="if-title-author"><!--提取sql语句-->
+        <if test="title !=null">
+            title = #{title}
+        </if>
+        <if test="author !=null">
+            and  author =#{author}
+        </if>
+    </sql>
+    <select id="queryBlogIf" parameterType="map" resultType="blog">
+        select * from blog
+        <where><!--//去除的and-->
+          <include refid="if-title-author"></include><!--使用提取的sql-->
+        </where>
+    </select>
+    <select id="queryBlogChoose" parameterType="map" resultType="blog">
+        select *  from blog
+        <where>
+            <choose>
+                <when test="title  !=null">
+                    title = #{title}
+                </when>
+                <when test="author  !=null">
+                    and    author =#{author}
+                </when>
+                <otherwise>
+                    and  views = #{views}
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <update id="updateBlog" parameterType="map">
+        update mybatis.blog
+        <set>
+            <if test="title !=null"><!--去除的是逗号-->
+                title =#{title},
+            </if>
+            <if test="author !=null">
+                author =#{author}
+            </if>
+        </set>
+        where id =#{id}
+    </update>
+    <!--传递一个map ,在map中在传递一个list集合叫ids  item是每个集合中的元素名字 -->
+    <select id="queryBlog" parameterType="map" resultType="blog">
+    select * from blog
+    <where>
+        <foreach collection="ids" item="id" open="and (" close=")" separator="or">
+            id =#{id}
+        </foreach>
+    </where>
+    </select>
+</mapper>

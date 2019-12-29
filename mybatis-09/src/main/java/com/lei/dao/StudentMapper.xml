@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lei.dao.StudentMapper">
+    <!--按照查询过程的方式-->
+    <select id="getStudent"  resultMap="StudentTeacher"><!--使用结果集映射（resultMap）的时候需要映射名和resultMap的id相同-->
+     select * from student;
+  </select>
+    <resultMap id="StudentTeacher" type="Student"><!--type是指查询的类型-->
+        <result property="id" column="id"></result><!--property是指实体类的属性 column数据库的列名-->
+        <result property="name" column="name"></result>
+        <association property="teacher" javaType="Teacher" column="tid" select="getTeacher">
+            <!-- property是对象 javaType是类型 column是学生这个数据表的tid select是下面的查询语句-->
+        </association>
+    </resultMap>
+    <select id="getTeacher" resultType="Teacher">
+        select * from teacher where  id = #{tid};
+    </select>
+    <!--按照 结果嵌套的方式处理-->
+    <select id="getStudent2" resultMap="StudentTeacher2">
+        select s.id sid,s.name sname,t.name tname,t.id tid
+        from student s, teacher t
+        where  s.tid = t.id;
+    </select>
+    <resultMap id="StudentTeacher2" type="Student">
+        <result property="id" column="sid"></result><!--column填的是别名-->
+        <result property="name" column="sname"></result>
+        <association property="teacher" javaType="Teacher"><!--property是对象javaType类型 -->
+            <result property="id" column="tid"></result><!--property是属性  column表的别名-->
+            <result property="name" column="tname"></result>
+        </association>
+    </resultMap>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lei.dao.UserMapper">
+
+    <!--resultMap是结果级映射，目的是解决实体类和数据库的列名不相同时-->
+    <resultMap id="UserMap" type="User">
+        <!-- column是数据库的列名  property是实体类的名-->
+        <result column="id" property="id"></result>
+        <result column="name" property="name"></result>
+        <result column="pwd" property="password"></result>
+    </resultMap>
+    <!--resultType记得改成resultMap -->
+   <select id="getById" resultMap="UserMap" parameterType="int">
+       select *  from mybatis.user where id = #{id}
+   </select>
+</mapper>
