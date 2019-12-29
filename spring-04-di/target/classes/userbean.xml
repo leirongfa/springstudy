@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--p命名空间的注入可以直接注入属性的值代替propities-->
+<bean id="user" class="com.lei.pojo.User" p:name="类容案发发" p:age="15">
+</bean>
+    <!--c命名空间注入可以直接注入属性但是代替是有参数的构造注入
+    singleton模式创建对象
+    prototype原型模式创建的对象每一个都是新的所以他们的地址不相等 -->
+    <bean id="user2" class="com.lei.pojo.User" c:age="18" c:name="雷荣发" scope="prototype"></bean>
+</beans>

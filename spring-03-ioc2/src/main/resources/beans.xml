@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--有参数构造的第一种方式
+    <bean id="user" class="com.lei.pojo.User">
+        <constructor-arg index="0" value="累哦让那个发"></constructor-arg>
+    </bean>-->
+    <!--有参数构造的第二种方法当不建议使用
+    <bean class="com.lei.pojo.User" id="user">
+        <constructor-arg type="java.lang.String" value="累哦让那个发"></constructor-arg>
+    </bean>-->
+    <bean id="user" class="com.lei.pojo.User">
+        <constructor-arg name="name" value="Leiongfa"></constructor-arg>
+    </bean>
+
+</beans>

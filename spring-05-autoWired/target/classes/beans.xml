@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--注解实现自动装配
+    1. xmlns:context="http://www.springframework.org/schema/context"声明约束
+    2.  <context:annotation-config/>开启注解-->
+    <context:annotation-config/>
+        <bean id="cat" class="com.lei.pojo.cat"></bean>
+       <bean id="dog" class="com.lei.pojo.dog"></bean>
+    <!--byName：：autowire自动装配根据set方法后的名字来装配（bean的等于set后面的名字的类名）前提是主类中要包含其他类且他们被bean所注入
+    byType根据类型来自动装载-->
+      <bean id="person" class="com.lei.pojo.person" autowire="byType">
+          <property name="name" value="雷荣发"></property>
+           <!--<property name="cat" ref="cat"></property>
+           <property name="dog" ref="dog"></property>-->
+      </bean>
+</beans>
